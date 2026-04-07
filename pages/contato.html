@@ -27,5 +27,33 @@
         <p>Interessado? Preencha o formulário e nossa equipe monta o pacote ideal para você. Reserve já com a TripWay!</p>
     </header>
 
+    <main>
+        <section class="contato-container">
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required placeholder="ex: Maria Perz">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="ex: mariaperez@gmail.com">
+
+                <label for="destino">Destino:</label>
+                <select id="destino" name="destino" required>
+                    <option value="">Escolha seu destino</option>
+                    <option value="las-vegas">Las Vegas</option>
+                    <option value="miami">Miami</option>
+                    <option value="suecia">Suécia</option>
+                </select>
+
+                <label for="data-ida">Data de ida:</label>
+                <input type="date" id="data-ida" name="data-ida" required>
+
+                <label for="data-volta">Data de volta:</label>
+                <input type="date" id="data-volta" name="data-volta" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+    </section>
+
+    </main>
 </body>    
 </html>
