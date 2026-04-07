@@ -115,6 +115,54 @@ header p {
   line-height: 1.6;
 }
 
+.contato-container {
+    margin-top: -150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contato-container form {
+    width: 100%;
+    max-width: 400px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    box-shadow: none; 
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-container label {
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.contato-container input,
+.contato-container select {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.contato-container button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
 footer {
   display: flex;
   justify-content: space-between;
