@@ -114,3 +114,26 @@ header p {
   margin: 0 16px 16px;
   line-height: 1.6;
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: black;
+}
