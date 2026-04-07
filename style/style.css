@@ -1,0 +1,139 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+nav ul {
+  margin-top: 30px;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 24px;
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  color: black;
+  text-decoration: none;
+}
+
+.banner-principal {
+    margin: -30px 10px 10px;
+    border-radius: 40px;
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+header h2 {
+    margin-top: -20px;
+}
+
+header p {
+    max-width: 900px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.card {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-radius: 16px;
+    overflow: hidden;
+    width: 300px;
+    border: 1px solid #e0e0e0;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin: 16px 16px 8px;
+}
+
+.card p {
+    font-size: 14px;
+    margin: 0 16px 16px;
+    line-height: 1.6;
+}
+
+.pacotes-container {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.pacote {
+  border-radius: 16px;
+  overflow: hidden;
+  width: 300px;
+  border: 1px solid #e0e0e0;
+}
+
+.pacote img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.pacote h2 {
+  font-size: 20px;
+  margin: 16px 16px 8px;
+}
+
+.pacote p {
+  font-size: 14px;
+  margin: 0 16px 16px;
+  line-height: 1.6;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: black;
+}
